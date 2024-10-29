@@ -51,3 +51,6 @@ In my role at EPAM Systems as a Software Engineer, I have been an integral part 
 - Liepaja Liedaga secondary school - Mandatory educational program (2011 - 2020)
 - LVT - BA degree in mechatronic (2020 - 2024)
 
+## English
+
+I have developed my English language skills through a variety of experiences, starting with formal education in school and college, where I built a solid foundation in grammar, vocabulary, and communication. To enhance my proficiency further, I took lessons on Preply, which allowed me to improve my conversational skills, pronunciation, and confidence in real-life contexts. Additionally, I recently had the opportunity to live in the USA for 1.5 months, which gave me firsthand experience with native speakers and immersed me in the language on a daily basis. This exposure has significantly refined my understanding of cultural nuances, idiomatic expressions, and everyday spoken English, making me more adept and comfortable in both personal and professional settings.
