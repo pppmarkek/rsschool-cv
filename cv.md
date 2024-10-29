@@ -32,3 +32,10 @@ Currently, I am pursuing a degree in Mechatronics at LVT, which has provided me 
 - Redux.js
 - Figma
 - Git
+
+## Code example links
+
+- [eCommerce project](https://bitbucket.org/kowapa/ecommerce/src/main/)
+- [betacall project](https://github.com/ppmarkek/betacall-NewCRA)
+- [RECO project](https://github.com/ppmarkek/RECO)
+- [Portfolio](https://ppmarkek.github.io/MarksUngeitis/)
