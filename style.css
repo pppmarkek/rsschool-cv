@@ -25,6 +25,10 @@ main {
   padding: 0px 40px;
 }
 
+h3 {
+  font-size: 21px;
+}
+
 .contacts {
   display: flex;
   align-items: center;
@@ -32,7 +36,7 @@ main {
   gap: 10px;
 }
 
-.contacts nav a {
+.contacts ul li a {
   text-decoration: none;
   color: #000;
   border-bottom: 1px solid #fff;
@@ -40,7 +44,7 @@ main {
   transition: all 0.3s;
 }
 
-.contacts nav a:hover {
+.contacts ul li a:hover {
   border-bottom: 1px solid #000;
 }
 
@@ -52,6 +56,13 @@ main {
 }
 
 .skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.projectExamples {
   display: flex;
   align-items: center;
   flex-direction: column;
