@@ -1,0 +1,44 @@
+* {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+header {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacts nav a {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.contacts nav a:hover {
+  border-bottom: 1px solid #000;
+}
