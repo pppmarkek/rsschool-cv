@@ -82,3 +82,14 @@ h3 {
   gap: 10px;
 }
 
+.projectExamples a {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.projectExamples a:hover {
+  border-bottom: 1px solid #000;
+}
