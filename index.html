@@ -65,13 +65,39 @@
         </ul>
       </div>
 
+      <div class="codeExamples">
+        <h3>Code examples</h3>
+        <pre>
+            <code>
+                const sumDiscountArray = cartArray
+                .filter(value => value.discount && value.discount.price > 0)
+                .map(value => {
+                    const discount = value.discount;
+                    const now = new Date();
+                    const startDate = new Date(discount.startDate);
+                    const endDate = new Date(discount.endDate);
+                
+                    if (now >= startDate && now <= endDate) {
+                    return discount.price * value.quantity;
+                    }
+                    return 0;
+                })
+                .reduce((acc, curr) => acc + curr, 0);
+            </code>
+        </pre>
+      </div>
+
       <div class="projectExamples">
         <h3>Project examples</h3>
         <nav>
-            <a href="https://bitbucket.org/kowapa/ecommerce/src/main/">eCommerce project</a>
-            <a href="https://github.com/ppmarkek/betacall-NewCRA">betacall project</a>
-            <a href="https://github.com/ppmarkek/RECO">RECO project</a>
-            <a href="https://ppmarkek.github.io/MarksUngeitis/">Portfolio</a>
+          <a href="https://bitbucket.org/kowapa/ecommerce/src/main/"
+            >eCommerce project</a
+          > |
+          <a href="https://github.com/ppmarkek/betacall-NewCRA"
+            >betacall project</a
+          > |
+          <a href="https://github.com/ppmarkek/RECO">RECO project</a> |
+          <a href="https://ppmarkek.github.io/MarksUngeitis/">Portfolio</a>
         </nav>
       </div>
     </main>
