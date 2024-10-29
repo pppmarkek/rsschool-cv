@@ -93,3 +93,17 @@ h3 {
 .projectExamples a:hover {
   border-bottom: 1px solid #000;
 }
+
+.education {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.english {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
