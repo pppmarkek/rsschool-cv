@@ -70,19 +70,19 @@
         <pre>
             <code>
                 const sumDiscountArray = cartArray
-                .filter(value => value.discount && value.discount.price > 0)
-                .map(value => {
+                .filter(value =&gt; value.discount &amp;&amp; value.discount.price &gt; 0)
+                .map(value =&gt; {
                     const discount = value.discount;
                     const now = new Date();
                     const startDate = new Date(discount.startDate);
                     const endDate = new Date(discount.endDate);
                 
-                    if (now >= startDate && now &lt;= endDate) {
+                    if (now &gt;= startDate &amp;&amp; now &lt;= endDate) {
                     return discount.price * value.quantity;
                     }
                     return 0;
                 })
-                .reduce((acc, curr) => acc + curr, 0);
+                .reduce((acc, curr) =&gt; acc + curr, 0);
             </code>
         </pre>
       </div>
