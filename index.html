@@ -1,146 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>CV</title>
-  </head>
-  <body>
-    <header>
-      <h1>Marks Ungeitis</h1>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+</head>
+<body>
+  <header>
+    <h1>Marks Ungeitis</h1>
+  </header>
 
-    <main>
-      <div class="contacts">
-        <h2>Contacts</h2>
-        <ul>
-          <li>
-            <a href="mailto:markekungeitis@gmail.com">Main email: markekungeitis@gmail.com</a>
-          </li>
-          <li><a href="mailto:markungeitis01@gmail.com">Second Email: markungeitis01@gmail.com</a></li>
-          <li><a href="https://github.com/ppmarkek">Main GitHub</a></li>
-          <li><a href="https://t.me/markek01">Telegram</a></li>
-          <li><a href="https://www.instagram.com/mark*ung*">Instagram</a></li>
-          <li><a>Discord: _markek</a></li>
-        </ul>
-      </div>
+  <main>
+    <div class="contacts">
+      <h2>Contacts</h2>
+      <ul>
+        <li><a href="mailto:markekungeitis@gmail.com">Main email: markekungeitis@gmail.com</a></li>
+        <li><a href="mailto:markungeitis01@gmail.com">Second Email: markungeitis01@gmail.com</a></li>
+        <li><a href="https://github.com/ppmarkek">Main GitHub</a></li>
+        <li><a href="https://t.me/markek01">Telegram</a></li>
+        <li><a href="https://www.instagram.com/mark*ung*">Instagram</a></li>
+        <li><a>Discord: _markek</a></li>
+      </ul>
+    </div>
 
-      <div class="summary">
-        <h2>Summary</h2>
-        <p>
-          I am a dedicated and skilled Frontend Developer with over 3 years of
-          hands-on experience in developing front-end web applications. My
-          expertise lies in utilizing React and Redux to manage state
-          efficiently, as well as creating visually appealing designs using
-          Figma.
-          <br>
-          <br>
-          Currently, I am pursuing a degree in Mechatronics at LVT, which has
-          provided me with a solid foundation in both software and hardware
-          engineering principles. My multilingual abilities in Russian, Latvian,
-          and English allow me to communicate effectively with diverse teams and
-          clients.
-        </p>
-      </div>
+    <div class="summary">
+      <h2>Summary</h2>
+      <p>
+        I am a dedicated and skilled Frontend Developer with over 3 years of hands-on experience in developing front-end web applications. My expertise lies in utilizing React and Redux to manage state efficiently, as well as creating visually appealing designs using Figma.
+        <br><br>
+        Currently, I am pursuing a degree in Mechatronics at LVT, which has provided me with a solid foundation in both software and hardware engineering principles. My multilingual abilities in Russian, Latvian, and English allow me to communicate effectively with diverse teams and clients.
+      </p>
+    </div>
 
-      <div class="skills">
-        <h3>Skills</h3>
-        <ul>
-          <li>C++</li>
-          <li>Java</li>
-          <li>Unreal Engine 5/4</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React.js</li>
-          <li>TypeScript</li>
-          <li>Amazon Web Services (AWS)</li>
-          <li>Material-UI</li>
-          <li>EPAM UUI</li>
-          <li>Jira</li>
-          <li>Redux.js</li>
-          <li>Figma</li>
-          <li>Git</li>
-        </ul>
-      </div>
+    <div class="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>C++</li>
+        <li>Java</li>
+        <li>Unreal Engine 5/4</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>TypeScript</li>
+        <li>Amazon Web Services (AWS)</li>
+        <li>Material-UI</li>
+        <li>EPAM UUI</li>
+        <li>Jira</li>
+        <li>Redux.js</li>
+        <li>Figma</li>
+        <li>Git</li>
+      </ul>
+    </div>
 
-      <div class="codeExamples">
-        <h3>Code examples</h3>
-        <pre>
-            <code>
-                const sumDiscountArray = cartArray
-                .filter(value =&gt; value.discount &amp;&amp; value.discount.price &gt; 0)
-                .map(value =&gt; {
-                    const discount = value.discount;
-                    const now = new Date();
-                    const startDate = new Date(discount.startDate);
-                    const endDate = new Date(discount.endDate);
-                
-                    if (now &gt;= startDate &amp;&amp; now &lt;= endDate) {
-                    return discount.price * value.quantity;
-                    }
-                    return 0;
-                })
-                .reduce((acc, curr) =&gt; acc + curr, 0);
-            </code>
-        </pre>
-      </div>
+    <div class="codeExamples">
+      <h3>Code examples</h3>
+      <pre>
+          <code>
+              const sumDiscountArray = cartArray
+              .filter(value => value.discount && value.discount.price > 0)
+              .map(value => {
+                  const discount = value.discount;
+                  const now = new Date();
+                  const startDate = new Date(discount.startDate);
+                  const endDate = new Date(discount.endDate);
+              
+                  if (now >= startDate && now <= endDate) {
+                  return discount.price * value.quantity;
+                  }
+                  return 0;
+              })
+              .reduce((acc, curr) => acc + curr, 0);
+          </code>
+      </pre>
+    </div>
 
-      <div class="projectExamples">
-        <h3>Project examples</h3>
-        <nav>
-          <a href="https://bitbucket.org/kowapa/ecommerce/src/main/"
-            >eCommerce project</a
-          >
-          |
-          <a href="https://github.com/ppmarkek/betacall-NewCRA"
-            >betacall project</a
-          >
-          | <a href="https://github.com/ppmarkek/RECO">RECO project</a> |
-          <a href="https://ppmarkek.github.io/MarksUngeitis/">Portfolio</a>
-        </nav>
-      </div>
+    <div class="projectExamples">
+      <h3>Project examples</h3>
+      <nav>
+        <a href="https://bitbucket.org/kowapa/ecommerce/src/main/">eCommerce project</a> |
+        <a href="https://github.com/ppmarkek/betacall-NewCRA">betacall project</a> |
+        <a href="https://github.com/ppmarkek/RECO">RECO project</a> |
+        <a href="https://ppmarkek.github.io/MarksUngeitis/">Portfolio</a>
+      </nav>
+    </div>
 
-      <div class="education">
-        <h2>Education</h2>
-        <ul>
-          <li>
-            Liepaja Liedaga secondary school - Mandatory educational program
-            (2011 - 2020)
-          </li>
-          <li>LVT - BA degree in mechatronic (2020 - 2024)</li>
-        </ul>
-      </div>
+    <div class="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Liepaja Liedaga secondary school - Mandatory educational program (2011 - 2020)</li>
+        <li>LVT - BA degree in mechatronic (2020 - 2024)</li>
+      </ul>
+    </div>
 
-      <div class="english">
-        <h2>English</h2>
-        <p>
-          I have developed my English language skills through a variety of
-          experiences, starting with formal education in school and college,
-          where I built a solid foundation in grammar, vocabulary, and
-          communication. To enhance my proficiency further, I took lessons on
-          Preply, which allowed me to improve my conversational skills,
-          pronunciation, and confidence in real-life contexts. Additionally, I
-          recently had the opportunity to live in the USA for 1.5 months, which
-          gave me firsthand experience with native speakers and immersed me in
-          the language on a daily basis. This exposure has significantly refined
-          my understanding of cultural nuances, idiomatic expressions, and
-          everyday spoken English, making me more adept and comfortable in both
-          personal and professional settings.
-        </p>
-      </div>
-    </main>
+    <div class="english">
+      <h2>English</h2>
+      <p>
+        I have developed my English language skills through a variety of experiences, starting with formal education in school and college, where I built a solid foundation in grammar, vocabulary, and communication. To enhance my proficiency further, I took lessons on Preply, which allowed me to improve my conversational skills, pronunciation, and confidence in real-life contexts. Additionally, I recently had the opportunity to live in the USA for 1.5 months, which gave me firsthand experience with native speakers and immersed me in the language on a daily basis. This exposure has significantly refined my understanding of cultural nuances, idiomatic expressions, and everyday spoken English, making me more adept and comfortable in both personal and professional settings.
+      </p>
+    </div>
+  </main>
 
-    <footer>
-      <a href="https://github.com/pppmarkek">GitHub</a>
-      <a href="https://rs.school/" class="logo">
-        <img
-          src="https://rs.school/assets/rss-logo-CM8B7fA7.svg"
-          alt="rs school logo"
-        >
-      </a>
-      <p>October, 2024</p>
-    </footer>
-  </body>
+  <footer>
+    <a href="https://github.com/pppmarkek">GitHub</a>
+    <a href="https://rs.school/" class="logo">
+      <img src="https://rs.school/assets/rss-logo-CM8B7fA7.svg" alt="rs school logo">
+    </a>
+    <p>October, 2024</p>
+  </footer>
+</body>
 </html>
